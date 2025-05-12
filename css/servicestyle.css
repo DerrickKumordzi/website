@@ -1,0 +1,22 @@
+/* Hero background with tech pattern overlay */
+.services-hero {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url('../assets/hero-bg.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Service cards hover lift */
+  .service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+  

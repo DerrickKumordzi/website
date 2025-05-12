@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact TechLite | Get in Touch</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/contactstyle.css"/>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/logo.png" alt="TechLite Logo" width="40" height="40" class="me-2"/>
+        <strong>TechLite</strong>
+      </a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <header class="hero-contact d-flex align-items-center text-white text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Get in Touch</h1>
+      <p class="lead animate__animated animate__fadeInUp animate__delay-1s">
+        We’d love to hear from you—whether it’s a project idea or a question about our courses.
+      </p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Contact Form -->
+        <div class="col-lg-6 animate__animated animate__fadeInLeft">
+          <h2 class="mb-4">Send Us a Message</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" id="email" class="form-control" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="Project Inquiry">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" rows="6" class="form-control" placeholder="Type your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <!-- Contact Info & Map -->
+        <div class="col-lg-6 animate__animated animate__fadeInRight">
+          <h2 class="mb-4">Contact Information</h2>
+          <p><i class="bi bi-geo-alt-fill text-primary me-2"></i>Assakae, Takoradi, Western Region, Ghana</p>
+          <p><i class="bi bi-envelope-fill text-primary me-2"></i><a href="mailto:hello@techlite.com" class="text-decoration-none">techlitecommunity@gmail.com</a></p>
+          <p><i class="bi bi-telephone-fill text-primary me-2"></i>+233 509 887 271</p>
+          <div class="ratio ratio-16x9 mt-4 shadow-sm">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!...YOUR_MAP_EMBED_CODE..."
+              style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Footer -->
+  <footer class="bg-dark text-white pt-5 pb-3 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase">About TechLite</h5>
+          <p class="small">
+            We’re here to help you build, learn, and grow—reach out and let’s start something great.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase">Quick Links</h5>
+          <ul class="list-unstyled small">
+            <li><a href="services.html" class="text-white text-decoration-none">Our Services</a></li>
+            <li><a href="tutorials.html" class="text-white text-decoration-none">Tutorials</a></li>
+            <li><a href="portfolio.html" class="text-white text-decoration-none">Portfolio</a></li>
+            <li><a href="blog.html" class="text-white text-decoration-none">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase">Connect With Us</h5>
+          <p class="small">Social media & more ways to reach TechLite.</p>
+          <div class="d-flex gap-3 mb-2">
+            <a href="#" class="text-white fs-5"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+          </div>
+          <a href="mailto:hello@techlite.com" class="btn btn-outline-light btn-sm">Email Us</a>
+        </div>
+
+      </div>
+      <div class="text-center pt-3 border-top border-secondary mt-4">
+        <p class="mb-0 small">&copy; 2025 TechLite. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* Hero background + overlay */
+.hero-tutorials {
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('../assets/tutorial-hero.png') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Card hover effect */
+  .service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+  

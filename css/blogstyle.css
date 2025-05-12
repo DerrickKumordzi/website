@@ -1,0 +1,18 @@
+/* Hero background with overlay */
+.hero-blog {
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('../assets/blog-hro.jpg') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Post cards hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+  }
+  

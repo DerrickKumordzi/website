@@ -1,0 +1,15 @@
+/* Portfolio Hero Background */
+.hero-portfolio {
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('../assets/portfolio-hero.jpg') center/cover no-repeat;
+    height: 60vh;
+  }
+  
+  /* Card hover */
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+  }
+  
