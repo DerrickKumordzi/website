@@ -1,3 +1,13 @@
+/* Hide scrollbars but still allow scrolling */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
 .hero-about {
     background:
       linear-gradient(rgba(12, 21, 44, 0.6), rgba(39, 17, 59, 0.6)),
